@@ -1,0 +1,62 @@
+
+.filters {
+    float: left;
+    background: snow;
+    height: 100%;
+}
+.filters .inside {
+    padding: 20px;
+    max-width: 300px;
+    height: 1000px;
+}
+.filters select {
+    background: white;
+    padding: 10px;
+    color: #50555c;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 25px;
+    height: 35px;
+    outline: none;
+}
+.filters select.filters.bedroom {
+    margin-bottom: 50px;
+}
+.filters .filter-title {
+    color: #50555c;
+    font-size: 1.1rem;
+}
+.filters .title {
+    color: #50555c;
+    text-transform: capitalize;
+}
+.filters.title {
+    display: block;
+    font-size: 0.9em;
+}
+.filters option {
+    color: #50555c;
+    font-weight: 600;
+}
+.filters.extras label {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    float: right;
+}
+.filters.extras label input[type='checkbox'] {
+    float: right;
+    outline: none;
+}
+.filters.extras label span {
+    color: #50555c;
+}
+.price, .floorspace {
+    margin-top: 1em;
+    margin-right: 2%;
+    border-radius: 5px;
+    border: 1px solid #828d9d;
+    padding: 8px 5px 8px;
+    width: 48%;
+}

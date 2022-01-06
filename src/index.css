@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, ;
+  -webkit-font-smoothing: -apple-system ;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.login-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.login-page h4{
+  margin-bottom: 25px;;
+  font-size: 25px;
+  color: #000; 
+  font-weight: 500;
+}
+
+.login-page input{
+  margin: 0px;
+  font-size: 15px;
+}
+
+.login-page input:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+.login-page button{
+  width: 100%;
+  color: #fff;
+  background-color: #1976d2;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 5px 0;
+}
+.login-page a{
+  color: #1976d2;
+  font-size: 16px; 
+  text-decoration: underline;
+}
+
+.check-box-field{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;;
+}
+
+.check-box-field input{
+  margin: 0 5px 0 0;
+}
+
+.check-box-field label{
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+  margin: 0;
+}
+
